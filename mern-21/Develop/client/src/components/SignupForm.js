@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-import { createUser } from '../utils/API';
-import Auth from '../utils/auth';
+import { createUser } from 'Develop/client/src/utils/API';
+import Auth from 'Develop/client/src/utils/auth';
 
 const SignupForm = () => {
     // set initial form state
